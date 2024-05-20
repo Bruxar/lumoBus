@@ -44,7 +44,9 @@ class LoginScreen extends StatelessWidget {
           SignInButton(
             Buttons.google,
             text: "Sign up with Google",
-            onPressed: () {},
+            onPressed: ( ) {
+              AuthProviderMi().signInWithGoogle();
+            },
             padding:
                 const EdgeInsets.only(left: 15, right: 15, top: 5, bottom: 5),
           ),
