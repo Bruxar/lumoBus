@@ -38,15 +38,16 @@ class LoginScreen extends StatelessWidget {
               );
             },
             backgroundColor: Colors.greenAccent.shade400,
-            padding: const EdgeInsets.all(15),
+            padding:
+                const EdgeInsets.only(left: 0, right: 0, top: 12, bottom: 12),
           ),
           SizedBox(height: 10),
           SignInButton(
             Buttons.google,
-            text: "Sign up with Google",
+            text: "Sign with Google",
             onPressed: () {},
             padding:
-                const EdgeInsets.only(left: 15, right: 15, top: 5, bottom: 5),
+                const EdgeInsets.only(left: 0, right: 0, top: 5, bottom: 5),
           ),
           SizedBox(height: 10),
           SignInButtonBuilder(
@@ -59,7 +60,8 @@ class LoginScreen extends StatelessWidget {
               );
             },
             backgroundColor: Colors.blueGrey.shade500,
-            padding: const EdgeInsets.all(15),
+            padding:
+                const EdgeInsets.only(left: 0, right: 0, top: 12, bottom: 12),
           ),
         ],
       );
